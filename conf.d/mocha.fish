@@ -3,6 +3,7 @@
 # --> special
 set -l foreground cdd6f4
 set -l selection 313244
+set -l comment bac2de
 
 # --> palette
 set -l teal 94e2d5
@@ -26,6 +27,7 @@ set -g fish_color_redirection $pink
 set -g fish_color_end $peach
 set -g fish_color_error $red
 set -g fish_color_gray $gray
+set -g scheme_color_comment $comment
 set -g fish_color_selection --background=$selection
 set -g fish_color_search_match --background=$selection
 set -g fish_color_operator $pink
